@@ -1,0 +1,47 @@
+.mode{
+  font-size: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mode span{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.countercal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DarkDiv {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.LightDiv {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.DarkDiv span{
+  background-color: white;
+  color: black;
+}
+.LightDiv Span{
+   background-color: black;
+  color: white;
+}

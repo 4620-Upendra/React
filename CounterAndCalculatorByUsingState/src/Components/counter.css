@@ -1,0 +1,39 @@
+.counterdiv{
+    border: 5px solid;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btns button{
+       margin: 10px;
+       padding: 15px;
+       font-size: 20px;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       font-weight: bolder;
+}
+
+.countdisplay{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+}
+#inc{
+    background-color: green;
+}
+#res{
+    background-color: lightskyblue;
+}
+#dec{
+    background-color: red;
+}
+.countheading{
+    font-size: 50px;
+}
