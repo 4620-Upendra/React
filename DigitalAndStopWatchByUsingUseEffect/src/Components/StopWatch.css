@@ -1,0 +1,32 @@
+.watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+    margin: 7px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+button {
+  background-color: #005f99;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003f66;  /* Changes on hover */
+}
+

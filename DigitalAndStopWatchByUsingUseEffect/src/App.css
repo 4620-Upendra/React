@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+/* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+background-color: #121212;
+
+
+}
+.sub{
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.line {
+  width: 70%;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.3);
+}
