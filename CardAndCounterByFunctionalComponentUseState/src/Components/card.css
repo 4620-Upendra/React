@@ -1,0 +1,10 @@
+
+.stdcard{
+    border: 2px solid;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
